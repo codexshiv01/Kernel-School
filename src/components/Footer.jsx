@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       
       <div className="max-w-7xl mx-auto w-full px-8 mt-16 pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-kernel-grey">
-         <p>kernelschool.ai</p>
+         <div></div>
          <div className="flex gap-4">
             <a href="#" className="hover:text-kernel-black">Terms</a>
             <a href="#" className="hover:text-kernel-black">Privacy</a>
