@@ -26,7 +26,7 @@ const Navbar = () => {
 
       {/* CTA & Mobile Toggle */}
       <div className="flex items-center gap-3 sm:gap-4">
-        <button className="bg-kernel-blue text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors">
+        <button className="hidden md:block bg-kernel-blue text-white px-6 py-2.5 rounded text-sm font-medium hover:bg-blue-700 transition-colors">
           Join Waitlist
         </button>
         
@@ -47,6 +47,9 @@ const Navbar = () => {
           <a href="#campus" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-kernel-black hover:text-kernel-blue transition-colors">Campus</a>
           <a href="#resources" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-kernel-black hover:text-kernel-blue transition-colors">Resources</a>
           <a href="#about" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-kernel-black hover:text-kernel-blue transition-colors">About</a>
+          <button className="bg-kernel-blue text-white px-6 py-3 rounded text-base font-medium hover:bg-blue-700 transition-colors mt-2">
+            Join Waitlist
+          </button>
         </div>
       )}
     </nav>
